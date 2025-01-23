@@ -35,5 +35,4 @@ class Fixed {
     static const int fractionalBits = 8;
 };
 
-
 #endif
