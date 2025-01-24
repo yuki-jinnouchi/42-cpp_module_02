@@ -31,7 +31,7 @@ Fixed::Fixed(const Fixed &source)
 
 // operator
 Fixed &Fixed::operator=(const Fixed &source){
-  std::cout << "Copy assignation operator called" << std::endl;
+  std::cout << "Copy assignment operator called" << std::endl;
   if (this != &source){
     this->fixedPointInteger = source.getRawBits();
   }
